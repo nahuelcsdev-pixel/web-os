@@ -43,7 +43,7 @@ body {
 }
 .maximizada {
     width: 100vw !important;
-    height: 100vh !important;
+    height: calc(100vh - 45px) !important;
     top: 0 !important;
     left: 0 !important;
 
@@ -129,6 +129,7 @@ body {
 .inicio-btnes {
     background: transparent;
     cursor: pointer;
+    color: blue;
 
 }
 .inicio-btnes:hover {
