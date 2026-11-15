@@ -53,6 +53,7 @@ actualizarReloj();
 
 iconoPanel.addEventListener('dblclick', () => {
     ventana.style.display = "block"
+    pesPanel.style.display = "none"
 })
 
 pesPanel.addEventListener('click', () =>{
