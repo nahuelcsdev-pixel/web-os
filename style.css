@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #escritorio {
     width: 100vw;
@@ -127,9 +128,15 @@ body {
     display: none;
 }
 .inicio-btnes {
+    display: block;
+    width: 100%;
     background: transparent;
     cursor: pointer;
-    color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
 
 }
 .inicio-btnes:hover {
